@@ -1,53 +1,45 @@
 # Cardify Reloaded
+***
 
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Producto final_
+¿Qué es? Es un plugin de jQuery que agrega un efecto de blur a las imágenes que tengan la clase _cardify_  que encuentre dentro de un _contenedor_ y las reemplaza por un nuevo
+elemento `<figure>` que contenga la imagen `<img>` además de un `<figcaption>`
+con el texto del atributo `alt` de la imagen.
+
+***
+## Elaborado con:
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 
 ***
 
-Implementar un plugin de jQuery que dado un _contenedor_ debe buscar todas las
-imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
-elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
-con el texto del atributo `alt` de la imagen.
-
-## Flujo de trabajo
-
-1. Inicio
-    * Se escribe primera versión del README.md con una descripción general de la biblioteca.
-    * Se inicializa proyecto con npm init y git init. 
-    * Se crea index.html además del diseño de la página que contiene las instrucciones para el usuario. 
-    * Se crean los primeros issues en GitHub. 
-
-2. Desarrollo de la funcionalidad. 
-    * Se instala babel 
-    * Se implementa funcionalidad
-    * Se preapara el entorno para desarrollo de pruebas con Nodejs. 
-    * Se hace code review. 
-
-3. Fase final
-    * Se realizan pruebas. 
-    * Completar la implementación de librería. 
-    * Se realiza code review. 
-    * Se publica biblioteca. 
-
 ## Instalación
+1. Agrega Jquery a tu proyecto
 
-### Global (navegador)
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`
 
-```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="path-to-cardify.js"></script>
-```
 
-## Uso
+2. Agrega la clase "cardify" a tus imágenes
 
-```js
-// `container` es el selector del contenedor donde se buscarán todas las
-// imágenes a ser procesadas.
-$(container).cardify({});
-```
+`<img class="cardify" src="ruta_a_tu_imagen" alt="titulo_de_la_imagen">`
 
-## Ejemplos
+3. Descarga el archivo cardify.js y vincúlalo con tu html con la siguiente liga:
+`<script src="js/cardify.js"></script>`
 
-...
+
+4. Puedes modificar los estilos utilizando las clases "principal" para la etiqueta &lt;figure&gt; e "imgTitle" para la etiqueta &lt;figcaption&gt;.
+
+
+
+***
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+
+
+Belén y Elvia
+
+
+
+
+[![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
+

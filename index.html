@@ -9,13 +9,18 @@
     <link rel="stylesheet" href="css/cardify.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <title>Cardify</title>
 </head>
 <body>
     <nav class="indigo darken-4">
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Cardify Reloaded</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="https://github.com/belenha/cardify" target="_blank"><i class="fab fa-github white-text"></i></a></li>
+            </ul>
         </div>
+        
     </nav>
     <header class="center-align">
         <h1>Cardify Reloaded</h1>
@@ -24,16 +29,46 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col s12">
+                <div class="col s12 instructions">
                     <p>Cardify Reloaded es un plugin que te ayuda a agregar un efecto de hover a tus imágenes. El pluggin encuentra
-                        todas las imágenes con clase
-                        <strong>'cardify'</strong> y las reemplaza con un nuevo elemento figure que contiene la imagen y el figcaption
-                        con el texto que aparece en el atributo 'alt' de la imagen.
+                        todas las imágenes con clase <strong>'cardify'</strong> y las reemplaza con un nuevo elemento figure que 
+                        contiene la imagen y el figcaption con el texto que aparece en el atributo 'alt' de la imagen.
                     </p>
                 </div>
             </div>
         </div>
     </main>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h2>Instalación</h2>
+                    <h5>Para instalar Cardify Reloaded en tu projecto sigue estos pasos:</h5>
+                    <br>
+                </div>
+                <div class="instructions">
+                    <p>1. Agrega Jquery a tu proyecto</p>
+                    <p>
+                        &ltscript src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">&lt/script>"
+                    </p>
+                </div>
+                <br>
+                <div class="instructions">
+                    <p>2. Agrega la clase "cardify" a tus imágenes</p>
+                    <p>&ltimg class="cardify" src="ruta_a_tu_imagen" alt="titulo_de_la_imagen"></p>
+                </div>
+                <br>
+                <div class="instructions">
+                    <p>3. Descarga el archivo <em>cardify.js</em> y vincúlalo con tu html con la siguiente liga:</p>
+                    <p>&lt;script src="js/cardify.js">&lt;/script></p>
+                </div>
+                <br>
+                <div class="instructions">
+                    <p>4. Puedes modificar los estilos utilizando las clases "principal" para el &ltfigure> y "imgTitle" para el &ltfigcaption>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="container">
         <h4 class="center-align">Demo</h4>
         <div class="row">

@@ -6,7 +6,6 @@
 		$("figure").append("<figcaption class = 'imgTitle'></figcaption>");
 		$(this).mouseover( function () {
 			$(this).next("figcaption").text($(this).attr("alt"))
-			$(this).next("figcaption").css("padding", "5px")
 			$(this).css("filter","blur(10px)")
 		});
 		$(this).mouseleave ( () => {

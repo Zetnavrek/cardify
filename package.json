@@ -1,7 +1,7 @@
 {
   "name": "cardify",
   "version": "1.0.0",
-  "description": "* **Track:** _Common Core_\r * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_\r * **Unidad:** _Producto final_",
+  "description": "* **Track:** _Common Core_\r * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_Producto final_",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Zetnavrek/cardify.git"
   },
-  "author": "",
+  "author": "evy_v <vykovi@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zetnavrek/cardify/issues"

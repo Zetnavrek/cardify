@@ -2,21 +2,20 @@
   "name": "cardify",
   "version": "1.0.0",
   "description": "* **Track:** _Common Core_\r * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_Producto final_",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zetnavrek/cardify.git"
+    "url": "https://github.com/Zetnavrek/cardify.git"
   },
   "author": "evy_v <vykovi@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Zetnavrek/cardify/issues"
-  },
-  "homepage": "https://github.com/Zetnavrek/cardify#readme"
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
+  

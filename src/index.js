@@ -1,9 +1,4 @@
 'use strict'
-const plugn = require("jquery");
-
-$(document).ready(function (){
-    $('.cardify').cardify({});
-});
 
 (function($) {
 	$.fn.cardify = function () {
@@ -19,4 +14,4 @@ $(document).ready(function (){
 		});
 	}
 	
-	}());
+	}(jQuery));
